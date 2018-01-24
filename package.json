@@ -1,0 +1,16 @@
+{ 
+  "name": "execution-to-bigquery",
+  "version": "1.0.0",
+  "description": "Apify act for uploading crawler execution results to Google BigQuery",
+  "main": "main.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cermak-petr/act-execution-to-bigquery"
+  },
+  "dependencies": {
+    "apify": "^0.4.36",
+    "underscore": "^1.8.3",
+    "@google-cloud/bigquery": "^1.0.0"
+  }
+}
