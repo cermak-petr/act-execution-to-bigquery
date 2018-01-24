@@ -1,5 +1,4 @@
 const Apify = require('apify');
-const request = require('request-promise');
 const BigQuery = require('@google-cloud/bigquery');
 
 Apify.main(async () => {
