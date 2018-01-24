@@ -4,11 +4,6 @@ const BigQuery = require('@google-cloud/bigquery');
 
 Apify.main(async () => {
     
-    const projectId = 'YOUR_PROJECT_ID';
-    
-    const bigquery = new BigQuery({projectId: projectId});
-    
-    /*
     // Imports the Google Cloud client library
 const BigQuery = require('@google-cloud/bigquery');
 
@@ -43,6 +38,5 @@ bigquery
       console.error('ERROR:', err);
     }
   });
-    */
     
 });
