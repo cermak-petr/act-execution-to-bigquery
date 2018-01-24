@@ -12,18 +12,18 @@ const datasetId = "my_project_154214";
 const tableId = "test-project-154214:my_project_154214.my_new_table";
 const rows = [{
     'hashtag': 'test_hashtag',
-    'profile_url': 'test_hashtag',
-    'instagram_id': 'test_hashtag',	
-    'username': 'test_hashtag',
-    'name': 'test_hashtag',
-    'user_added': 'test_hashtag',
-    'bio': 'test_hashtag',
-    'posts': 'test_hashtag',
-    'following': 'test_hashtag',
-    'followers': 'test_hashtag',
-    'email': 'test_hashtag',	
-    'website_url': 'test_hashtag',
-    'referrer': 'test_hashtag'
+    'profile_url': 'test_url',
+    'instagram_id': 123456,	
+    'username': 'test_username',
+    'name': 'test_name',
+    'user_added': 'test_added',
+    'bio': 'test_bio',
+    'posts': 1,
+    'following': 2,
+    'followers': 3,
+    'email': 'person@mail.org',	
+    'website_url': 'www.person.org',
+    'referrer': 'test_referrer'
 }];
 
 // Creates a client
